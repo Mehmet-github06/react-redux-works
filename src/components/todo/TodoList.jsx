@@ -1,13 +1,21 @@
-import TodoItem from "./TodoItem"
+import { clearTodo } from "../../store/todoReducer";
+import TodoItem from "./TodoItem";
+import { useSelector, useDispatch } from "react-redux";
 
 const TodoList = () => {
-  const handleClearList = () => {}
+  const todoList = useSelector((state) => state.todo.todoList);
+  const dispatch = useDispatch();
+
+  
+  const handleClearList = () => {
+    dispatch(clearTodo());
+  };
 
   return (
     <div>
       <div>
-        {[1, 2]?.map((todo) => (
-          <TodoItem key={todo.id} {...todo} />
+        {todoList?.map((todo, index) => (
+          <TodoItem key={index} {...todo} />
         ))}
       </div>
       <div className="clear-wrapper">
@@ -16,7 +24,7 @@ const TodoList = () => {
         </button>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default TodoList
+export default TodoList;
