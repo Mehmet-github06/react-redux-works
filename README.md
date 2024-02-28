@@ -1,12 +1,12 @@
-# Country App
+# React Redux Works
 
 <div align="center">
-  <img src="./assets/country.gif" />
+  <img src="./src/assets/Animation.gif" />
 </div>
 
 ## About the Project
 
-A web application that allows users to search for countries and view detailed information about them. The app fetches country data from [restcountries](https://restcountries.com/v3.1/all) API and provides details such as flag, region, capital, languages, currencies, population, borders, and a link to Google Maps.
+This application contains a counter and a to do list. The purpose here is to make and run this application using React Redux.
 
 ## Table of Contents
 
