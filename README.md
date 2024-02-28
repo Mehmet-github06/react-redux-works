@@ -5,7 +5,7 @@
 </div>
 
 ## Live Demo 👓
-- [React Redux Works](#features)
+- [React Redux Works](https://react-redux-works.vercel.app/)
 
 
 ## About the Project
