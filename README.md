@@ -4,6 +4,10 @@
   <img src="./src/assets/Animation.gif" />
 </div>
 
+## Live Demo 👓
+- [React Redux Works](#features)
+
+
 ## About the Project
 
 This application contains a counter and a to do list. The purpose here is to make and run this application using React Redux.
