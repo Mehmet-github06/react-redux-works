@@ -14,22 +14,12 @@ This application contains a counter and a to do list. The purpose here is to mak
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 
-## Features
-
-- Autocomplete search for countries.
-- Displays detailed information about the selected country.
-- Utilizes the [restcountries](https://restcountries.com/v3.1/all) API for country data.
-- Responsive design using Bootstrap for a user-friendly experience.
-- Background image for an aesthetically pleasing look.
 
 ## Usage
 
 1. Open the web page in a browser.
-2. Use the search input to type the name of the country you want to explore.
-3. As you type, the app provides autocomplete suggestions based on the input.
-4. Click on a country from the suggestions or continue typing to refine your search.
-5. The detailed information about the selected country, including flag, region, languages, currencies, population, and borders, will be displayed.
-6. Click on the link provided under "Map" to view the country on Google Maps.
+2. Increase or decrease the counter and press reset to reset it.
+3. In the To Do List, write the task or goal you want and tick or delete it.
 
 ## Screenshots
 
